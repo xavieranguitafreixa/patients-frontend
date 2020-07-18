@@ -1,0 +1,26 @@
+<h2>Display the contents of the database</h2>
+<br>
+<div>
+  <table class="table table-striped table-hover">
+    <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Comments</th>
+      <th>Preference</th>
+	  <th>Preference2</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr *ngFor="let patient of patients" >
+      <td class="vert-align">{{patient.name}}</td>
+      <td class="vert-align">{{patient.birthdate}}</td>
+      <td class="vert-align">{{patient.city}}</td>
+      <td class="vert-align">{{patient.zipCode}}</td>
+      <td class="vert-align">{{patient.street}}</td>
+      <td class="vert-align">{{patient.phone}}</td>
+    </tr>
+    </tbody>
+  </table>
+</div>

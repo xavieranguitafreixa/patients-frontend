@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "accesspacients": {
+      "hosting": {
+        "pacients": [
+          "accesspacients"
+        ]
+      }
+    }
+  }
+}
